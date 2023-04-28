@@ -1,0 +1,10 @@
+tasks:
+  - source: get.py
+    product:
+      nb: products/get.html
+      data: products/raw.csv
+
+  - source: edaPipeline.py
+    product:
+      nb: outputs/output.ipynb
+      data: outputs/clean_data.csv
